@@ -5,8 +5,13 @@ public class Main {
         String usersDateOfBirth = "1985";
 
         int dateOfBirth = Integer.parseInt(usersDateOfBirth);
-
         System.out.println("Age = " + (currentYear - dateOfBirth));
+
+        System.out.println();
+
+        String usersAge = "22.5";
+        double ageWithDecimal = Double.parseDouble(usersAge);
+        System.out.println("User's age is " + ageWithDecimal);
 
 
     }
